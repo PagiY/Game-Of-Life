@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-// import Grid from './components/Grid';
-// import { Canvas } from './Canvas';
+
 import './App.css';
 
 const ROWS = 20;
@@ -19,7 +18,7 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const playing = useCallback(() => {
-    console.log('hello!');
+    console.log('hey!');
   }, []);
 
   useEffect(() => {
