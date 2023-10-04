@@ -31,7 +31,8 @@ function App() {
 
   // game logic
   const playing = useCallback(() => {
-    // tempGrid is used for saving the state of new grid temporarily
+    // tempGrid is used for saving the state of the new grid temporarily
+    // this will be used for manipulation into the new state of the grid
     const tempGrid = JSON.parse(JSON.stringify(grid)) // create deep copy...
 
     for(let i = 0; i < ROWS; i++) {
